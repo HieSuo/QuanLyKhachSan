@@ -1,0 +1,3 @@
+TK sử dụng trang quản tr: 
+admin - 1 (admin)
+hieuabc -1 (nhân viên)

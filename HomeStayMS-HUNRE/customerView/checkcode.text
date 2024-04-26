@@ -1,0 +1,118 @@
+partnerCode=MOMOBKUN20180529
+&orderId=1700332144
+&requestId=1700332144
+&amount=390000
+&orderInfo=Thanh+toán+qua+MoMo
+&orderType=momo_wallet
+&transId=3132390771
+&resultCode=0
+&message=Successful.
+&payType=napas
+&responseTime=1700332194943
+
+
+&extraData=id_phong%3D3%26
+hoten%3DCẩm+Hoàng+Long%26
+sdt%3D0975881903%26
+email%3Dthanhieureal2509%40gmail.com%26
+cccd%3D001203045314%26
+diachi%3DSố+1+ngõ+3+Inferno%26
+checkin%3D2023-11-21+12%3A00%26
+checkout%3D2023-11-24+12%3A00
+
+&signature=47de618afc07e744b4e751abbd9c3bc59f3dfe824ba41d16d1250644b1789ef4
+&paymentOption=momo
+
+
+
+test momo:
+NGUYEN VAN A
+9704 0000 0000 0018
+03/07
+OTP
+
+
+pass phpmailer
+ftvddabwblhdpkup
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <h1>Welcome to Luxury Homestay</h1>
+                <h3 style="text-align: center">Đăng nhập</h3>
+                <div class="response"></div>
+                <form id="loginonline">
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="email" class="form-control" />
+                        <label class="form-label" for="email">Địa chỉ Email</label>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="password" class="form-control" />
+                        <label class="form-label" for="password">Mật khẩu</label>
+                    </div>
+
+                    <!-- 2 column grid layout for inline styling -->
+                    <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                            <!-- Checkbox -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                <label class="form-check-label" for="form2Example31"> Ghi nhớ tài khoản </label>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Simple link -->
+                            <a href="#!">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+
+                    <!-- Submit button -->
+                    <div class="row justify-content-center align-items-center g-2">
+
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Đăng nhập</button>
+
+                    </div>
+
+
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                        <p>Chưa có tài khoản? <a href="dangkytaikhoanonline.php">Đăng kí ngay</a></p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="img/user.png" />
+
+            <br>
+            <div class="result">
+
+            </div>
+            <form class="form-signin" data-toggle="validator" action="ajax.php" method="GET">
+                <div class="row">
+                    <div class="form-group col-lg-12">
+                        <label>Tài khoản hoặc EMail</label>
+                        <input type="text" name="email" class="form-control" placeholder="" required data-error="Enter Username or Email">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>Mật khẩu</label>
+                        <input type="password" name="matkhau" class="form-control" placeholder="" required data-error="Enter Password">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+
+                <button class="btn btn-lg btn-success btn-block btn-signin" type="submit" name="login">LOGIN</button>
+
+            </form><!-- /form -->
+        </div><!-- /card-container -->
+    </div><!-- /container -->

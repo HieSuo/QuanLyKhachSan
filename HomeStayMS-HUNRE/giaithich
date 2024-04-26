@@ -1,0 +1,16 @@
+các phàn thêm sửa xóa
+-thêmn
+    b1- tìm cái nút thêm -> lấy đc cái id của popup-> tìm cái chỗ viết form-> lấy idform
+    -> tìm idform bên ajax.js-> sẽ có phần addtiakhoan (trong phần $.ajax)
+    -> tìm cái addtaikhoang bên ajax.php -> giải thích các thứ ở đây(lấy cái j, ở đâu, kiểm tra tồn tại)
+    -> giải thích sql thêm vào đâu, + truyền response về file ajax.js->
+    response done= true-> dóng form->reload trang
+-sửa 
+    -Tìm cái nút sửa(chỗ cái bảng hiển thị danh sách)->tìm id của nút -> tìm bên ajax.js
+    -> giải thích lấy được data của button-> tìm cái getTK bên ajax.php
+    ->từ php tr về js, js set thoogn tin lên form
+    -tiếp đén form sửa-> cp idform ->js-> php cập nhật
+xóa
+    nút xóa sẽ là thẻ a dẫn sang file ajax.php?delete_taikhoan=> tìm delete_taikhoan bên php
+
+

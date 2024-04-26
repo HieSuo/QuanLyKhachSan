@@ -1,0 +1,5 @@
+database name: homestayms
+Nhập file homestayms.sql
+
+TK sử dụng: admin - 1 (admin)
+            hieuabc -1 (nhân viên)
